@@ -7,7 +7,7 @@ public class Digits
 
 	public Digits(int num)
 	{ 
-	   for(int i =0; i<(""+num).length);i++){
+	   for(int i =0; i<(""+num).length();i++){
 		digitList.set(i,num%10);
 		   num=num/10;
 	   }
